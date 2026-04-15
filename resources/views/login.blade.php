@@ -149,8 +149,8 @@
                         <i class="bi bi-asterisk fs-3"></i>
                     </div>
                     <div class="bottom-content">
-                        <p class="mb-1 opacity-75">You can easily</p>
-                        <h2 class="fw-bold">Get access your personal hub for clarity and productivity</h2>
+                        <p class="mb-1 opacity-75">For Patients & Pharmacies</p>
+                        <h2 class="fw-bold">Find medicines near you and manage your health schedule</h2>
                     </div>
                 </div>
             </div>
@@ -162,12 +162,12 @@
                     </div>
                     
                     <h3 class="fw-bold mb-1">Create an account</h3>
-                    <p class="text-muted small mb-4">Access your tasks, notes, and projects anytime, anywhere - and keep everything flowing in one place.</p>
+                    <p class="text-muted small mb-4">Access medicines, track availability, and find the nearest pharmacy anytime, anywhere — and keep your health needs flowing in one place.</p>
 
                     <form>
                         <div class="mb-3">
                             <label class="form-label">Your email</label>
-                            <input type="email" class="form-control" placeholder="farazhaider786@gmail.com">
+                            <input type="email" class="form-control" placeholder="account@gmail.com">
                         </div>
                         <div class="mb-4">
                             <label class="form-label">Password</label>
@@ -180,18 +180,12 @@
                         </div>
 
                         <button type="submit" class="btn btn-primary w-100">Get Started</button>
-                    </form>
-
-                    <div class="divider small">or continue with</div>
-
-                    <div class="d-flex justify-content-center gap-3 mb-4">
-                        <a href="#" class="social-btn text-dark"><i class="bi bi-behance"></i></a>
-                        <a href="#" class="social-btn text-danger"><i class="bi bi-google"></i></a>
-                        <a href="#" class="social-btn text-primary"><i class="bi bi-facebook"></i></a>
-                    </div>
+                    </form> 
+                    
+                    <br>
 
                     <p class="text-center small text-muted">
-                        Don't have an account? <a href="#" class="text-decoration-none fw-bold" style="color: #4361ee;">Sign up</a>
+                        Don't have an account? <a href="/signup" class="text-decoration-none fw-bold" style="color: #4361ee;">Sign up</a>
                     </p>
                 </div>
             </div>
