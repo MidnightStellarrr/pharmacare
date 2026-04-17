@@ -161,18 +161,19 @@
                         <i class="bi bi-asterisk"></i>
                     </div>
                     
-                    <h3 class="fw-bold mb-1">Create an account</h3>
+                    <h3 class="fw-bold mb-1">Welcome back!</h3>
                     <p class="text-muted small mb-4">Access medicines, track availability, and find the nearest pharmacy anytime, anywhere — and keep your health needs flowing in one place.</p>
 
-                    <form>
+                    <form method="POST" action="/login">
+                        @csrf
                         <div class="mb-3">
                             <label class="form-label">Your email</label>
-                            <input type="email" class="form-control" placeholder="account@gmail.com">
+                            <input type="email" name="email" class="form-control" placeholder="account@gmail.com" required>
                         </div>
                         <div class="mb-4">
                             <label class="form-label">Password</label>
                             <div class="input-group">
-                                <input type="password" class="form-control" placeholder="••••••••••••">
+                                <input type="password" name="password" class="form-control" placeholder="••••••••••••" required>
                                 <span class="input-group-text bg-white border-start-0 text-muted">
                                     <i class="bi bi-eye"></i>
                                 </span>

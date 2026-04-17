@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modern Login UI</title>
+    <title>Sign Up</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
@@ -164,7 +164,7 @@
                     <h3 class="fw-bold mb-1">Create an account</h3>
                     <p class="text-muted small mb-4">Access medicines, track availability, and find the nearest pharmacy anytime, anywhere — and keep your health needs flowing in one place.</p>
 
-                    <form method="POST" action="/login">
+                    <form method="POST" action="/register">
                         @csrf
                         <div class="mb-3">
                             <label class="form-label">Name</label>
@@ -199,7 +199,7 @@
                     <br>
 
                     <p class="text-center small text-muted">
-                        Don't have an account? <a href="/signup" class="text-decoration-none fw-bold" style="color: #4361ee;">Sign up</a>
+                        Already have an account? <a href="/login" class="text-decoration-none fw-bold" style="color: #4361ee;">Log In</a>
                     </p>
                 </div>
             </div>

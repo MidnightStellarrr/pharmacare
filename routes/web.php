@@ -14,3 +14,12 @@ Route::get('/login', function () {
 Route::get('/signup', function () {
     return view('signup'); 
 });
+
+Route::get('/dashboard', function () {
+    return view('user_dashboard'); // Create this view
+})->middleware('auth');
+
+// for packages syntax
+if (app()->environment('local')) {
+    Route::get('logs', [\Rap2hpoutre\LaravelLogViewer\LogViewerController::class, 'index']);
+}
