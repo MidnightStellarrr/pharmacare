@@ -165,6 +165,7 @@
                     <p class="text-muted small mb-4">Access medicines, track availability, and find the nearest pharmacy anytime, anywhere — and keep your health needs flowing in one place.</p>
 
                     <form method="POST" action="/register">
+                        <!----  protects your application from CSRF attack -->
                         @csrf
                         <div class="mb-3">
                             <label class="form-label">Name</label>
@@ -210,6 +211,8 @@
         </div>
     </div>
 </div>
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
